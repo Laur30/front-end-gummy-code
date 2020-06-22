@@ -6,7 +6,7 @@ import {
 const INITIAL_STATE = {
     headerLinks: [
         {
-            title: 'yoo'
+            title: 'yooo'
         },
         {
             title: 'YOOO'
@@ -14,10 +14,12 @@ const INITIAL_STATE = {
     ],
     navbarLinks: [
         {
-            title: 'account'
+            title: 'account',
+            active: true
         },
         {
-            title: 'purchases'
+            title: 'purchases',
+            active: false
         }
     ]
 }
@@ -26,20 +28,14 @@ export default function(state = INITIAL_STATE, action) {
     switch (action.type) {
         case SET_HEADER_LINKS:
             return {
-               ...state,
-               headerLinks: action.payload 
+                ...state,
+                headerLinks: action.payload
             }
-
-            case SET_NAVBAR_LINKS:
-              return {
-               ...state,
-               navbarLinks: action.payload 
+        case SET_NAVBAR_LINKS:
+            return {
+                ...state,
+                navbarLinks: action.payload
             }
-
-            
-
-    
         default: return state;
-
     }
 }
