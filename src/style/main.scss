@@ -1,7 +1,5 @@
-
-
 html {
-    font-size: 62.5%; // 1rem is 10px
+    font-size: 62.5%;
 }
 
 *,
@@ -10,26 +8,13 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
 body {
     font-family: "Open Sans";
     color: #808080;
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
 
 @import 'layout';
 @import 'headernavbar';
@@ -38,3 +23,4 @@ body {
 
 @import 'page-title';
 @import 'form-fields';
+@import 'details';
