@@ -14,6 +14,8 @@ html {
 }
 
 body {
+    font-family: "Open Sans";
+    color: #808080;
     overflow-x: hidden;
     font-weight: normal;
 
@@ -35,3 +37,4 @@ body {
 @import 'auth/signup';
 
 @import 'page-title';
+@import 'form-fields';
