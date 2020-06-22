@@ -7,7 +7,6 @@ import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-
 import './style/main.scss';
 
 import Layout from './components/layout';
