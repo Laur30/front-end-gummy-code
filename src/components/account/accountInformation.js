@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'node-sass';
 
 class AccountInformation extends Component {
     render() {
@@ -9,7 +8,6 @@ class AccountInformation extends Component {
             </div>
         )
     }
-
 }
 
 export default AccountInformation;

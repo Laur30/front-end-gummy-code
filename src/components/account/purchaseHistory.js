@@ -1,4 +1,4 @@
-import { render } from 'node-sass';
+import React, { Component } from 'react';
 
 class PurchaseHistory extends Component {
     render() {
@@ -8,7 +8,6 @@ class PurchaseHistory extends Component {
             </div>
         )
     }
-
 }
 
 export default PurchaseHistory;

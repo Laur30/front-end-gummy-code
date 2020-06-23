@@ -13,18 +13,15 @@ class SignUpForm extends Component {
         const info = [
             {
                 _id: 0,
-                title: 'At least 6 characters',
-
+                title: 'At least 6 characters'
             },
             {
                 _id: 1,
-                title: 'At least one number',
-
+                title: 'At least one number'
             },
             {
                 _id: 2,
-                title: 'At least one symbol',
-
+                title: 'At least one symbol'
             }
         ]
         return (
@@ -58,7 +55,7 @@ class SignUpForm extends Component {
                 <Field className='sign-up-form__login'
                 onClick={() => history.push('/account')}
                 type='submit'
-                title='Create Account'
+                title='Creat Account'
                 name='login'
                 component={FormButton}/>
                 <Field className='sign-up-form__back'

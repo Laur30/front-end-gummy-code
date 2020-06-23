@@ -18,8 +18,7 @@
     & > * {
         grid-column: 1/-1;
     }
-
-     &__name {
+    &__name {
         grid-row: name-s/name-e;
     }
     &__email {
@@ -31,6 +30,7 @@
     &__confirm {
         grid-row: confirm-s/confirm-e;
     }
+
     &__line {
         grid-row: line-s/line-e;
         border-top: 1px solid #ccc;
