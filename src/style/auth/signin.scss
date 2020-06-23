@@ -2,9 +2,9 @@
     grid-row: content-s/content-e;
     grid-column: s/e;
 
-    &__page-title {
+    //&__page-title {
 
-    }
+    //}
 
     &__form {
         display: grid;
@@ -15,7 +15,7 @@
 
 .sign-in-form {
     & > * {
-        grid-column: 1/-1;
+        grid-column: 1-1;
     }
     &__email {
         grid-row: email-s/email-e;
