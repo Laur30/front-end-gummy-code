@@ -1,5 +1,5 @@
 .shipping {
-    grid-column: content-s/content-e;
+    grid-row: content-s/content-e;
     grid-column: s/e;
 
     &__form {
@@ -47,12 +47,19 @@
     }
 }
 
-.shipping {
-    transition: all .3s ease;
-}
+// .shipping {
+//     transition: all .3s ease;
+// }
 
-    @media only screen and (max-width: 600px) {
-        .shipping {
-            transform: scale(0.75);
-        }
-    }
+// @media only screen and (max-width: 600px) {
+//     .shipping  {
+//         transform: scale(0.75);
+//     }
+// }
+
+
+// @media only screen and (max-width: 300px) {
+//     .shipping  {
+//         transform: scale(0.6);
+//     }
+// }
