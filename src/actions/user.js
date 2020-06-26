@@ -31,7 +31,8 @@ export function fetchCartProducts() {
                     title: 'JavaScript In the Browser',
                     description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                     price: 1.99,
-                    belongsTo: [0, 1]
+                    belongsTo: [0, 1],
+                    imageUrl: 'http://via.placeholder.com/80x80'
                 },
                 quantity: 2
             },

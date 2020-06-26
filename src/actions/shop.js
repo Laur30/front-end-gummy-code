@@ -66,49 +66,56 @@ export function fetchShopProducts() {
                 title: 'JavaScript In the Browser',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 1,
                 title: 'Graph Database',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80' 
             },
             {
                 _id: 2,
                 title: 'Full Stack Development',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 1, 4]
+                belongsTo: [0, 1, 4],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 3,
                 title: 'User Interface Design',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 4,
                 title: 'JavaScript Development',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 5,
                 title: 'User Experience Design',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             }, 
             {
                 _id: 6,
                 title: 'Advanced OOP',
                 description: 'While some species of sharks do need to swim constantly, this is not true for all sharks. Some sharks such as the nurse shark have spiracles that force water across their gills allowing for stationary rest. Sharks do not sleep like humans do, but instead have active and restful periods',
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80'
             } 
         ]
     })
